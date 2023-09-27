@@ -4,7 +4,7 @@
 <template>
     <div id="landingpage">
         <div class="topnav">
-            <img src="./assets/Group 2.jpg" alt="logo"/>
+            <img src="./../assets/Group 2.jpg" alt="logo" width="100" height="100" />
             <h1>Star University</h1>
             <a href="#HOME">HOME</a>
             <a href="#ABOUT US">ABOUT</a>
@@ -14,7 +14,7 @@
             <a href="EVENTS">CONTACT</a>
         </div>
         <div class="image">
-            <img src="./assets/background.jpg" alt="body image"/>
+            <img src="./../assets/background.jpg" alt="body image" width="500" height="500" />
             <div class="apply">
                 <h1>Welcome to <span>Star University</span></h1>
                 <button class="button">APPLY NOW</button>
