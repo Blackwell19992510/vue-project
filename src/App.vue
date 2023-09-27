@@ -1,21 +1,9 @@
 <script setup>
-import landingpage from './components/landingpage.vue'
-import login from './components/login.vue'
-import signup from './components/signup.vue'
-import about from './components/about.vue'
 </script>
 
 <template>
-  <header>
-  </header>
-
   <main>
-    <div class="wrapper">
-      <landingpage/>
-      <login />
-      <signup />
-      <about />
-    </div>
+    <RouterView></RouterView>
   </main>
 </template>
 
