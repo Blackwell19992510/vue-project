@@ -3,8 +3,6 @@ import login from "./../components/login.vue"
 import signup from "./../components/signup.vue"
 import { createRouter, createWebHistory } from 'vue-router'
 
-vue.use(vueRouter)
-
 const routes = [
     {
     path: '/',

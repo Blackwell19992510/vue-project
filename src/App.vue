@@ -1,14 +1,15 @@
 <script setup>
 import navbar from './components/navbar.vue';
+import landingpage from './components/landingpage.vue'
 </script>
 
 <template>
   <v-app>
-    <navbar>
+    <navbar />
+    <landingpage />
       <v-main>
-        <RouterView></RouterView>
+        <router-view ></router-view>
       </v-main>
-    </navbar>
   </v-app>
 </template>
 

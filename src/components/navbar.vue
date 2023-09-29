@@ -1,20 +1,21 @@
 <template>
     <div>
         <v-app-bar color="teal">
-        <v-app-bar-tittle star University />
-        <v-spacer></v-spacer>
-        <div>
-            <v-btn to="/" color="white" dark>Home</v-btn>  
-        </div>
-        <div>
-            <v-btn to="/about" color="white" dark>About</v-btn>  
-        </div>
-        <div>
-            <v-btn to="/login" color="white" dark>Login</v-btn>  
-        </div>
-        <div>
-            <v-btn to="/signup" color="white" dark>Sign up</v-btn>  
-        </div>
+            <v-app-bar-title>Star University</v-app-bar-title>
+
+            <v-spacer></v-spacer>
+            <div>
+                <v-btn to="/" color="white" dark>Home</v-btn>  
+            </div>
+            <div>
+                <v-btn to="/about" color="white" dark>About</v-btn>  
+            </div>
+            <div>
+                <v-btn to="/login" color="white" dark>Login</v-btn>  
+            </div>
+            <div>
+                <v-btn to="/signup" color="white" dark>Sign up</v-btn>  
+            </div>
         </v-app-bar>
     </div>
 </template>
