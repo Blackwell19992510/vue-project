@@ -1,6 +1,6 @@
 <script setup>
 import navbar from './components/navbar.vue';
-import footer from './components/footer.vue';
+import foot from './components/foot.vue';
 import landingpage from './components/landingpage.vue';
 
 </script>
@@ -11,7 +11,7 @@ import landingpage from './components/landingpage.vue';
     <v-main>
       <router-view></router-view>
     </v-main>
-    <footer/>
+    <foot/>
   </v-app>
 </template>
 
@@ -32,20 +32,18 @@ import landingpage from './components/landingpage.vue';
 }
 .apply{
     position: absolute;
-    background-color:rgb(34,139,34,0.1) ;
+    background-color:rgb(0,128,128,0.4) ;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .apply h1{
     font-size: 70px;
-    color:black;
+    color:white;
 }
-.apply h1 span{
-    color:#1BCB18;
-}
+
 .button{
-    background-color:lightskyblue;
+    background-color:teal;
     padding: 10px 10px;
     border-radius: 50px;
     font-size: 30px;
