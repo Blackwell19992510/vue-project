@@ -1,7 +1,7 @@
 <template>
     <div>
         <v-app-bar color="teal">
-            <img src="./../assets/Group 2.jpg" alt="logo" width="65" height="65" />
+            <img src="./../assets/Group 2.jpg" alt="logo" width="65" height="65"/>
             <v-app-bar-title>Star University</v-app-bar-title>
 
             <v-spacer></v-spacer>
