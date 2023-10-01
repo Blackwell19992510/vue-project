@@ -3,6 +3,7 @@ import navbar from './components/navbar.vue';
 import foot from './components/foot.vue';
 import landingpage from './components/landingpage.vue';
 
+
 </script>
 
 <template>
@@ -19,7 +20,7 @@ import landingpage from './components/landingpage.vue';
   export default {
   name: 'App',
   components: {
-    landingpage,
+    landingpage
   }
   }
 </script>
@@ -50,6 +51,8 @@ import landingpage from './components/landingpage.vue';
     font-weight: bold;
     position: absolute;
     margin-top: 20%;
+    border: 2px solid #000000;
+    display: block;
 }
 </style>
 
