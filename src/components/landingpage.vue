@@ -5,7 +5,6 @@ console.log('here')
 <template>
     <div id="landingpage">
         <div class="topnav">
-            <img src="./../assets/Group 2.jpg" alt="logo" width="100" height="100" />
             <h1>Star University</h1>
             <a href="#HOME">HOME</a>
             <a href="#ABOUT US">ABOUT</a>

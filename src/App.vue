@@ -1,6 +1,6 @@
 <script setup>
-import navbar from './components/navbar.vue'
-import footer from './components/footer.vue'
+import navbar from './components/navbar.vue';
+import footer from './components/footer.vue';
 
 </script>
 

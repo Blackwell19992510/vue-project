@@ -1,6 +1,7 @@
 <template>
     <div>
         <v-app-bar color="teal">
+            <img src="./../assets/Group 2.jpg" alt="logo" width="65" height="65" />
             <v-app-bar-title>Star University</v-app-bar-title>
 
             <v-spacer></v-spacer>
@@ -12,9 +13,6 @@
             </div>
             <div>
                 <v-btn to="/login" color="white" dark>Login</v-btn>  
-            </div>
-            <div>
-                <v-btn to="/signup" color="white" dark>Sign Up</v-btn>  
             </div>
             <div>
                 <v-btn to="/register" color="white" dark>Register</v-btn>  
