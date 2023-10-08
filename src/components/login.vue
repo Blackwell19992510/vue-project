@@ -3,7 +3,7 @@
         <v-container>
             <v-container>
                 <v-layout column>
-                    <v-card
+                    <v-card 
                         class="mx-auto"
                         width="500"
                     > 

@@ -4,6 +4,7 @@ import landingpage from "../components/landingpage.vue"
 import about from "../components/about.vue"
 import login from "../components/login.vue"
 import register from "../components/register.vue"
+import student from "./../components/Student.vue"
 
 
 const routes = [
@@ -30,6 +31,12 @@ const routes = [
         name: 'register',
         component: register,
     },
+
+    {
+        path: '/student',
+        name: 'student',
+        component: student,
+      },
 ]
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
